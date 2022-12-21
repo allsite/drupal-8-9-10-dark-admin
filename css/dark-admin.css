@@ -1,0 +1,7 @@
+#toolbar-bar, img {
+	filter:invert(1) hue-rotate(180deg);
+}
+#toolbar-item-administration-tray {
+  filter:invert(1) hue-rotate(180deg);
+  box-shadow:none;
+}
