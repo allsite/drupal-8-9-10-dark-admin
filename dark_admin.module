@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * @file
+ * Contains dark_admin.module functions.
+ */
+
+function dark_admin_page_attachments(&$variables) {
+  if (\Drupal::service('router.admin_context')->isAdminRoute()) {
+    $variables['#attached']['library'][] =  'dark_admin/global-scripts';
+    $variables['#attached']['library'][] =  'dark_admin/global-styling';
+  }
+}

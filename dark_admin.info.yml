@@ -1,0 +1,5 @@
+name: Dark Admin
+description: "A light-weight js/css module that inverts admin pages into dark mode."
+type: module
+core: 8.x
+core_version_requirement: ^8 || ^9 || ^10
